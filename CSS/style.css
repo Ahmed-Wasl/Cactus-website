@@ -1,0 +1,27 @@
+/* Start Variables */
+:root {
+  
+}
+/* End Variables */
+/* Start Global Rules */
+:is(*, *::before, *::after) {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "", sans-serif;
+  font-size: 1rem;
+}
+ul {
+  list-style: none;
+}
+.container {
+  padding: 0 5%;
+  margin-inline: auto;
+}
+/* End Global Rules */
